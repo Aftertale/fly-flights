@@ -1,0 +1,18 @@
+{
+  "version": "2",
+  "standard": {
+    "https://google.com" : ["google", "goog"]
+  },
+  "logical": {
+    "aws": {
+      "override": "https://console.aws.amazon.com/console/home",
+      "logic": ["https://console.aws.amazon.com/console/home?region=${region:plain}"]
+    },
+    "gh": {
+      "logic": ["https://github.com/${gh-org:plain}/${gh-repo:plain}"]
+    },
+    "tfpdoc": {
+      "logic": ["https://registry.terraform.io/providers/${tf-org:plain}/${tf-provider:plain}/latest/docs"]
+    }
+  }
+}
