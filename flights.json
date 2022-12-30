@@ -9,10 +9,15 @@
       "logic": ["https://console.aws.amazon.com/console/home?region=${region:plain}"]
     },
     "gh": {
-      "logic": ["https://github.com/${gh-org:plain}/${gh-repo:plain}"]
+      "logic": [
+        "https://github.com/${gh-org:plain}/${gh-repo:plain}",
+        "https://github.com/Updater/"
+      ]
     },
     "tfpdoc": {
-      "logic": ["https://registry.terraform.io/providers/${tf-org:plain}/${tf-provider:plain}/latest/docs"]
+      "logic": [
+        "https://registry.terraform.io/providers/${tf-org:plain}/${tf-provider:plain}/latest/docs"
+      ]
     }
   }
 }
