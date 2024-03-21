@@ -19,18 +19,18 @@
         "https://registry.terraform.io/providers/${tf-org:plain}/${tf-provider:plain}/latest/docs"
       ]
     },
-    "repo": {
+    "adorepo": {
       "logic": [
         "https://dev.azure.com/${org:plain}/${team:plain}/_git/${repo:plain}",
         "https://dev.azure.com/CostcoWholesale/ECP/_git/${repo:plain}"
       ]
     },
-    "tasks": {
+    "adotasks": {
       "logic": [
         "https://dev.azure.com/costcocloudops/service-catalog/_workitems/recentlyupdated"
       ]
     },
-    "pipelines": {
+    "adopipelines": {
       "logic": [
         "https://dev.azure.com/CostcoWholesale/ECP/_apps/hub/caribeiro84.pull-request-manager-hub.view"
       ]
