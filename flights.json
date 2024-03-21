@@ -11,12 +11,28 @@
     "gh": {
       "logic": [
         "https://github.com/${gh-org:plain}/${gh-repo:plain}",
-        "https://github.com/Updater/"
+        "https://github.com/Aftertale/"
       ]
     },
     "tfpdoc": {
       "logic": [
         "https://registry.terraform.io/providers/${tf-org:plain}/${tf-provider:plain}/latest/docs"
+      ]
+    },
+    "repo": {
+      "logic": [
+        "https://dev.azure.com/${org:plain}/${team:plain}/_git/${repo:plain}",
+        "https://dev.azure.com/CostcoWholesale/ECP/_git/${repo:plain}"
+      ]
+    },
+    "tasks": {
+      "logic": [
+        "https://dev.azure.com/costcocloudops/service-catalog/_workitems/recentlyupdated"
+      ]
+    },
+    "pipelines": {
+      "logic": [
+        "https://dev.azure.com/CostcoWholesale/ECP/_apps/hub/caribeiro84.pull-request-manager-hub.view"
       ]
     }
   }
