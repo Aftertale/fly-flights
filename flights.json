@@ -39,6 +39,9 @@
       "logic": [
         "https://dev.azure.com/CostcoWholesale/ECP/_apps/hub/caribeiro84.pull-request-manager-hub.view"
       ]
+    },
+    "azure": {
+      "logic": ["https://portal.azure.com/#home"]
     }
   }
 }
