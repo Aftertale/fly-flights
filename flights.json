@@ -22,8 +22,7 @@
     },
     "cdktf": {
       "logic": [
-        "https://github.com/cdktf/cdktf-provider-${provider:plain}-go",
-        "https://github.com/cdktf/cdktf-provider-${provider:plain}-go/${provider:plain}/${resource:plain}"
+        "https://github.com/cdktf/cdktf-provider-${provider:plain}-go"
       ]
     },
     "adorepos": {
