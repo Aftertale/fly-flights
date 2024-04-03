@@ -1,7 +1,8 @@
 {
   "version": "2",
   "standard": {
-    "https://google.com" : ["google", "goog"]
+    "https://google.com" : ["google", "goog"],
+    "https://portal.azure.com/#home": ["az", "azure"]
   },
   "logical": {
     "aws": {
@@ -17,6 +18,12 @@
     "tfpdoc": {
       "logic": [
         "https://registry.terraform.io/providers/${tf-org:plain}/${tf-provider:plain}/latest/docs"
+      ]
+    },
+    "cdktf": {
+      "logic": [
+        "https://github.com/cdktf/cdktf-provider-${provider:plain}-go",
+        "https://github.com/cdktf/cdktf-provider-${provider:plain}-go/${provider:plain}/${resource:plain}"
       ]
     },
     "adorepos": {
@@ -42,6 +49,6 @@
     },
     "azure": {
       "logic": ["https://portal.azure.com/#home"]
-    }
+    },
   }
 }
