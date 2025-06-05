@@ -1,17 +1,31 @@
 {
   "version": "2",
   "standard": {
-    "https://google.com" : ["google", "goog"],
-    "https://portal.azure.com/#home": ["az", "azure"]
+    "https://google.com": [
+      "google",
+      "goog"
+    ],
+    "https://portal.azure.com/#home": [
+      "az",
+      "azure"
+    ],
+    "https://github.com/nxt-costco-com/gcp-mcp-gke-modules": [
+      "modules"
+    ],
+    "https://github.com/nxt-costco-com/gcp-mcp-gitops": [
+      "gitops"
+    ],
+    "https://github.com/nxt-costco-com/gcp-mcp-clusters": [
+      "clusters"
+    ],
+    "https://github.com/nxt-costco-com/mcp-tenant": [
+      "tenant"
+    ]
   },
   "logical": {
-    "aws": {
-      "override": "https://console.aws.amazon.com/console/home",
-      "logic": ["https://console.aws.amazon.com/console/home?region=${region:plain}"]
-    },
     "gh": {
       "logic": [
-        "https://github.com/${gh-org:plain}/${gh-repo:plain}",
+        "https://github.com/nxt-costco-com/${gh-repo:plain}",
         "https://github.com/Aftertale/"
       ]
     },
@@ -47,7 +61,9 @@
       ]
     },
     "azure": {
-      "logic": ["https://portal.azure.com/#home"]
+      "logic": [
+        "https://portal.azure.com/#home"
+      ]
     }
   }
 }
