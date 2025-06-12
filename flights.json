@@ -20,6 +20,24 @@
     ],
     "https://github.com/nxt-costco-com/mcp-tenant": [
       "tenant"
+    ],
+    "https://github.com/nxt-costco-com/gcp-iam-roles": [
+      "iam"
+    ],
+    "https://github.com/nxt-costco-com/gcp-c3-subnet-factory": [
+      "subnets",
+      "subnet"
+    ],
+    "https://github.com/nxt-costco-com/gcp-c3-orgpolicies": [
+      "orgpolicy",
+      "org-policy"
+    ],
+    "https://github.com/nxt-costco-com/gcp-c3-repos-factory": [
+      "repofactory",
+      "repo-factory"
+    ],
+    "https://pkg.go.dev": [
+      "go"
     ]
   },
   "logical": {
