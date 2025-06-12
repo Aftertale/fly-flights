@@ -38,6 +38,16 @@
     ],
     "https://pkg.go.dev": [
       "go"
+    ],
+    "https://dev.azure.com/costcocloudops/service-catalog/_workitems/recentlyupdated": [
+      "adotasks",
+      "tasks"
+    ],
+    "https://dev.azure.com/costcocloudops/service-catalog/_backlogs/backlog/ECP%20Containers/Stories": [
+      "backlog"
+    ],
+    "https://dev.azure.com/costcocloudops/service-catalog/_boards/board/t/ECP%20Containers/Stories?System.AssignedTo=%40me&System.IterationPath=%40currentIteration": [
+      "board"
     ]
   },
   "logical": {
